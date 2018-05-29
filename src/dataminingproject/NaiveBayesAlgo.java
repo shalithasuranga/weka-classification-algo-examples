@@ -15,7 +15,7 @@ import weka.core.converters.ConverterUtils;
  */
 public class NaiveBayesAlgo {
     public static void main(String[] args) {
-        String path = "C:\\Users\\Shalitha Suranga\\Desktop\\nursery.arff";
+        String path = "nursery.arff";
         Instances ins;
         NaiveBayes nb = new NaiveBayes();
         

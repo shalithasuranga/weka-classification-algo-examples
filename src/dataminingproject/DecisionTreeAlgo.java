@@ -20,7 +20,7 @@ public class DecisionTreeAlgo {
     public static void main(String[] args) throws Exception {
         // train classifier
         J48 cls = new J48();
-        String path = "C:\\Users\\Shalitha Suranga\\Desktop\\nursery.arff";
+        String path = "nursery.arff";
         Instances data = ConverterUtils.DataSource.read(path);
         cls.setUnpruned(false);
         data.setClassIndex(data.numAttributes() - 1);

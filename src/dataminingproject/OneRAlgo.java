@@ -22,7 +22,7 @@ public class OneRAlgo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String path = "C:\\Users\\Shalitha Suranga\\Desktop\\nursery.arff";
+        String path = "nursery.arff";
         Instances ins;
         OneR one = new OneR();
         

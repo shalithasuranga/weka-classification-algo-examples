@@ -16,7 +16,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 public class ItemSetAlgo {
     public static void main(String[] args) {
         Apriori model = new Apriori();
-        String path = "C:\\Users\\Shalitha Suranga\\Desktop\\nursery.arff";
+        String path = "nursery.arff";
         try {
             Instances data = DataSource.read(path);
             model.setNumRules(10);
